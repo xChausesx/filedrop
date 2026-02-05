@@ -1,0 +1,30 @@
+.footer {
+  background-color: #002040;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-top: 5px solid #004080;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-nav {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

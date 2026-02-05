@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 0 3rem; /* Increase empty space on the sides */
+}
+
+button {
+  background: linear-gradient(90deg, #004080, #0066cc);
+  color: white;
+  border: none;
+  border-radius: 25px; /* Make the button more rounded */
+  padding: 0.7rem 1.5rem; /* Make the button larger */
+  font-size: 1.1rem; /* Slightly increase font size */
+  font-weight: bold; /* Add emphasis to the text */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+button:hover {
+  background: linear-gradient(90deg, #003366, #0055aa);
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #001040;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.file-drop-zone {
+  border: 2px dashed #004080;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  color: #004080;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.file-drop-zone:hover {
+  background-color: #e6f0ff;
+  border-color: #002060;
+}
+
+.file-drop-zone p {
+  margin: 0;
+  font-size: 1.2rem;
+}
