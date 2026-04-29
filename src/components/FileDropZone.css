@@ -33,12 +33,6 @@ button:active {
   background-color: #001040;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .file-drop-zone {
   border: 2px dashed #004080;
   border-radius: 10px;
