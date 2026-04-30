@@ -19,11 +19,10 @@ function App() {
 
   const handleFileDrop = async (droppedFiles: File[]) => {
     for (const f of droppedFiles) {
-      await api.uploadFile(f.name, f.size, f.type || 'application/octet-stream', selectedFolderId, [], 'user-1');
+      await api.uploadFile(f, selectedFolderId, [], 'user-1');
     }
     refresh();
   };
-
   const handleSearchByTag = (tag: string) => {
     setActivePage('files');
     // The FileExplorer will pick up the tag via its own search
